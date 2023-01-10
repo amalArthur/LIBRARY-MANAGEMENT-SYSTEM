@@ -1,0 +1,52 @@
+.booklist{
+    text-align: center;
+    background-color:white;
+}
+.bookcard{
+    
+    display:flex;
+    align-items:center;
+    /* text-align:end; */
+    /* box-sizing:border-box; */
+    border: 200px;
+    margin: 0 auto;
+    /* text-align:start; */
+    /* margin: 25px; */
+    /* color:darkred; */
+    color: black;
+    /* background-color:black; */
+    padding:10px;     
+    /* margin-left: 450px; */
+     height: 200px;
+    width: 600px;
+    max-width: 95%;
+    margin-bottom: 20px;
+    box-shadow:10px 10px 10px black;
+    border-radius: 10px;
+    /* border-radius: 20px; */
+    justify-content:space-between;
+    border: 1px solid black;
+    
+    
+}
+.thumbnail img{
+    
+    display:flex;
+    align-items: center;
+    margin:50px;
+    /* width: 300px; */
+    /* align-items:; */
+     /* margin-bottom:50; */
+     /* align-items: flex-end; */
+     /* text-align: right; */
+}
+.bookcard button{
+    color:black;
+    background-color: white;
+    
+   
+ } 
+ .component{
+    width: 300px;
+    margin: 100;
+ }
