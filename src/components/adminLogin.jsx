@@ -29,14 +29,14 @@ const AdminLogin = () => {
                     <form onSubmit={handleLogin}>
                         <div className="mail">
                             <label>
-                                Email *
+                                Email:</label>
                                 <input type="email" required placeholder="Enter Email" value={mail} onChange={(e) => setMail(e.target.value)} />
                                 {/* required : it is used to make that field mandatory */}
-                            </label>
+                            
                         </div>
                         <div className="pass">
                             <label>
-                                Password
+                                Password:
                                 <input type="password" placeholder="Enter Password" value={password} onChange={(p) => setPassword(p.target.value)} />
                             </label>
                         </div>

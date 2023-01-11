@@ -1,7 +1,36 @@
 .adminlogin{
     background-image: url("../../public/Images/iryna-tysiak-kRaH720CCRE-unsplash.jpg");
-    height:100vh;
-    /* display: block; */
-    margin-top: 0%;
-    padding-top: 9%;
+    height:200vh;
+    /* margin-left: 200; */
+    padding-top: 20%;
+    margin: 0%;
+    /* text-align: center; */
+    color:black;
+    font-size: 15px;
+    font-family: "Roboto","HelveticaNeue-Light",sans-serif;
+    text-align: center;
+    font-weight:bolder;
+    padding: 400px;
+}
+form input{
+    font-size: 20px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    
+
+    /* justify-content: space-between; */
+}
+.mail input{
+    margin-left: 31px;
+    margin-bottom: 9px;
+}
+.form button{
+    margin-top: 9px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 50px;
+    height: 20px;
+    background-color:aquamarine;
+    color: black;
 }
